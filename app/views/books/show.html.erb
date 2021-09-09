@@ -1,0 +1,10 @@
+<div class="show">
+  <div id="labels"> <%= t'.title' %> </div>
+  <div> <%= @book_item.title %></div>
+  <div id="labels"> <%= t'.description' %> </div>
+  <div> <%= @book_item.description %></div>
+  <div id="labels"> <%= t'.year' %> </div>
+  <div> <%= @book_item.year %></div>
+
+  <div id="back"><%= link_to t('.back'), root_path %></div>
+</div>

@@ -1,0 +1,31 @@
+it:
+  books:
+    index:
+      title: "titolo"
+      description: "descrizione"
+      year: "anno"
+      listing: "Lista dei libri"
+      edit: "Aggiorna"
+      create: "Crea"
+      show: "Visualizza"
+    edit:
+      submit: "aggiorna libro"
+      update_book: "Aggiornamento dell libro"
+    new:
+      submit: "crea libro"
+      create_book: "Creazione dell libro"
+    show:
+      title: "titolo"
+      description: "descrizione"
+      year: "anno"
+      back: "indietro"
+  activerecord:
+    attributes:
+      book:
+        title: "titolo"
+        description: "descrizione"
+        year: "anno"
+  header:
+    english: "inglese"
+    italian: "italiano"
+    german: "tedesco"
